@@ -18,6 +18,7 @@ nav a:hover,nav a[aria-current]{color:var(--green)}
 nav{display:flex;position:static;flex-direction:row;gap:26px;padding:0;border:0;box-shadow:none;background:none}
 nav a{border:0;padding:6px 0;border-bottom:2px solid transparent}nav a:hover,nav a[aria-current]{border-color:var(--green)}}
 .hero{background:linear-gradient(105deg,#0c0c0c 42%,#133a26 140%);color:#fff;padding:130px 0 120px}
+.hero.photo{background:linear-gradient(90deg,rgba(8,8,8,.88) 0%,rgba(8,8,8,.62) 50%,rgba(8,8,8,.28) 100%),var(--img) center/cover no-repeat}
 .hero.small{padding:90px 0 80px}
 .hero .inner{max-width:1140px;margin:0 auto;padding:0 24px 0 max(24px,calc((100% - 1140px)/2 + 24px))}
 .hero .inner>*{max-width:540px}
